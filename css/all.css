@@ -3,7 +3,48 @@ html, body {
   padding: 0; }
 
 body {
-  font-family: arial, sans-serif; }
+  background: #f8f9fa;
+  font-family: arial, sans-serif;
+  padding: 40px; }
 
 * {
   box-sizing: border-box; }
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc; }
+
+.lawyers-list > ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.lawyer {
+  background: #fff;
+  width: 100%; }
+  .lawyer__header {
+    overflow: hidden;
+    padding: 20px; }
+  .lawyer__links {
+    padding: 20px; }
+  .lawyer__avatar {
+    max-width: 100px;
+    float: left; }
+  .lawyer__experience {
+    padding: 20px; }
+    .lawyer__experience ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0; }
+      .lawyer__experience ul li {
+        margin-right: 20px; }
+    .lawyer__experience img {
+      max-width: 100%; }
+
+@media (min-width: 30em) {
+  .lawyer {
+    margin-bottom: 2%;
+    width: 49%; } }

@@ -9,6 +9,7 @@ spokeApp.
 controller('people', function($scope, $http) {
   var self = this;
   self.orderProp = 'age';
+  self.fulldesc = false;
 
   $http.get('assets/json/search-results.json').then(function(response) {
     self.people = response.data;

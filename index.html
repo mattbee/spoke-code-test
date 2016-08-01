@@ -20,20 +20,20 @@
   </head>
   <body ng-app="spokeApp">
 
-    <div ng-controller="people as peopleCtrl">
+    <div class="lawyers-list" ng-controller="people as peopleCtrl">
       <h1>Spoke Lawyers List</h1>
 
       <ul>
-        <li ng-repeat="lawyer in peopleCtrl.people" class="lawyer">
-        
+        <li ng-repeat="lawyer in peopleCtrl.people | limitTo: 6" class="lawyer">
+
           <div class="lawyer__header">
-            <img ng-if="lawyer.avatar" ng-src="./assets/{{lawyer.avatar}}" alt="" />
+            <img class="lawyer__avatar" ng-if="lawyer.avatar" ng-src="./assets/{{lawyer.avatar}}" alt="" />
             <h2>{{lawyer.initial}}</h2>
           </div>
 
-          <div class="lawyer__buttons">
+          <div class="lawyer__links">
             <a href="#" class="btn btn-primary">Shortlist for info &amp; availability</a>
-            <a href="#" class="btn btn__icon btn__icon--heart">Shortlist for info &amp; availability</a>
+            <a href="#" class="btn btn__icon btn__icon--heart">Save for later</a>
           </div>
 
           <div class="lawyer__experience">
@@ -42,6 +42,9 @@
                 <img ng-src="{{item.logo}}" alt="{{item.name}}" />
               </li>
             </ul>
+
+            <p class="intro" ng-hide="fulldesc">{{lawyer.description | limitTo: 200}} <a href="#" class="read-more" ng-click="fulldesc = true"><strong>read more</strong></a></p>
+            <p ng-show="fulldesc">{{lawyer.description}}</p>
           </div>
 
         </li>
