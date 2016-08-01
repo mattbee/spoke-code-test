@@ -1,0 +1,25 @@
+{
+  "name": "spoke-code-test",
+  "description": "A front end development code test for spoke law.",
+  "main": "index.html",
+  "authors": [
+    "Matt Bee (matt@todayishould.com)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mattbee/spoke-code-test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "jQuery": "2"
+  },
+  "resolutions": {
+    "jQuery": "2"
+  }
+}
