@@ -24,7 +24,7 @@
       <h1>Spoke Lawyers List</h1>
 
       <ul>
-        <li ng-repeat="lawyer in peopleCtrl.people | limitTo: 6" class="lawyer">
+        <li ng-repeat="lawyer in peopleCtrl.people" class="lawyer">
 
           <div class="lawyer__header">
             <img class="lawyer__avatar" ng-if="lawyer.avatar" ng-src="./assets/{{lawyer.avatar}}" alt="" />
@@ -49,6 +49,10 @@
 
         </li>
       </ul>
+
+      <div class="load-more">
+        <a href="" ng-click="peopleCtrl.loadMore(peopleCtrl.people, peopleCtrl.peoplePage2);">Load More</a>
+      </div>
     </div><!-- // controller people -->
 
     <!-- jQuery -->
