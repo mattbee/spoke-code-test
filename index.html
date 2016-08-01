@@ -29,10 +29,15 @@
           <div class="lawyer__header">
             <img class="lawyer__avatar" ng-if="lawyer.avatar" ng-src="./assets/{{lawyer.avatar}}" alt="" />
             <h2>{{lawyer.initial}}</h2>
+            <p class="lawyer__info">
+              <img src="../assets/images/briefcase.svg" /> {{lawyer.lawyer_type}} 
+              <img src="../assets/images/certificate.svg" /> {{lawyer.pqe}} 
+              <img src="../assets/images/location.svg" /> {{lawyer.location}} 
+            </p>
           </div>
 
           <div class="lawyer__links">
-            <a href="#" class="btn btn-primary">Shortlist for info &amp; availability</a>
+            <a href="#" class="btn btn--primary">Shortlist for info &amp; availability</a>
             <a href="#" class="btn btn__icon btn__icon--heart">Save for later</a>
           </div>
 
@@ -43,8 +48,10 @@
               </li>
             </ul>
 
-            <p class="intro" ng-hide="fulldesc">{{lawyer.description | limitTo: 200}} <a href="#" class="read-more" ng-click="fulldesc = true"><strong>read more</strong></a></p>
+
+            <p class="intro" ng-hide="fulldesc">{{lawyer.description | limitTo: 200}} <span ng-if="longdesc"><a href="" class="read-more" ng-click="fulldesc = true;"><strong>read more</strong></a></span></p>
             <p ng-show="fulldesc">{{lawyer.description}}</p>
+
           </div>
 
         </li>

@@ -5,29 +5,44 @@
 		display: flex; 
 		flex-wrap: wrap;
 		justify-content: space-between;
-		li {
-
-		}
 	}
 }
 
 
 .lawyer {
 	background: #fff;
+	border-right: 1px solid #ededef;
+	border-left: 1px solid #ededef;
+	box-shadow: 0 2px 1px #ccc;
 	margin-bottom: 30px;
 	width: 100%;
 
 	&__header {
+		border-bottom: 1px solid #ededef;
 		overflow: hidden;
 		padding: 20px;
 	}
+	&__info {
+		img {
+			display: inline-block;
+			max-width: 12px;
+			margin-left: 20px;
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
 	&__links {
+		border-bottom: 1px solid #ededef;
 		padding: 20px;
+		display: flex;
+		justify-content: space-between;
 	}
 
 	&__avatar {
 		max-width: 100px;
 		float: left;
+		margin-right: 20px;
 	}
 	&__experience {
 		padding: 20px;
@@ -40,7 +55,7 @@
 			}
 		}
 		img {
-			max-width: 100%;
+			max-width: 100px;
 		}
 	}
 }

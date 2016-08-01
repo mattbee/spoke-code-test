@@ -5,7 +5,9 @@ html, body {
 
 body {
 	background: #f8f9fa;
-	font-family: arial, sans-serif;
+	color: #666;
+	font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", sans-serif;
+    font-style: normal;
 	padding: 40px;
 }
 
@@ -13,9 +15,36 @@ body {
 	box-sizing: border-box;
 }
 
+h1, h2 {
+	font-weight: normal;
+}
 
 .btn {
-	display: inline-block;
-	padding: 10px;
 	border: 1px solid #ccc;
+	border-radius: 2px;
+	color: #333;
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.btn--primary {
+	background-color: #93c461;
+	border-color: #93c461;
+	color: #fff;
+}
+
+.btn__icon {
+	&:before {
+		content: "";
+		display: inline-block;
+		height: 14px;
+		width: 14px;
+		background-size: 100% auto;
+		margin-right: 10px;
+	}
+
+	&--heart:before {
+		background: url(../assets/images/heart-black-outline.svg) no-repeat;
+	}
 }

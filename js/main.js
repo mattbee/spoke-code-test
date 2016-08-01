@@ -10,7 +10,7 @@ spokeApp.
 	  var self = this;
 
 	  // So the short description is shown first, set full desc to false.
-	  self.fulldesc = false;
+	  self.fulldesc = "false";
 
 	  $http.get('assets/json/search-results.json').then(function(response) {
 	    self.people = response.data.slice(0, 6);
