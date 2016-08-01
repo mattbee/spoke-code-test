@@ -33,3 +33,9 @@ On a production project, a Vagrant box would probably be built for the project, 
 
 Add unit tests.  Due to the time limit based on development and personal time limitations, unit tests haven't been written - however in standard development they would be.
 
+### Other smaller tasks I didn't have time for that I would do under normal circumstances:
+
+* Make the layouts more in line with design supplied - it's a bit rough and ready at the moment.
+* Refactor the angular stuff, am sure some of it could be done nicer.
+* Tidy up all of the CSS and make sure it's semantic and isn't a nasty bunch of styles thrown at a web page as it currently is.
+* A whole load of other stuff... loads more could be done!!
