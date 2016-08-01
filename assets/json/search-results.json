@@ -1,0 +1,221 @@
+[
+  {
+    "initial": "AB",
+    "avatar": "images/avatar1.png",
+    "lawyer_type": "Lawyer",
+    "pqe": "20 years",
+    "location": "London, GB",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisl arcu, facilisis pulvinar porta vel, fermentum non nisl. Aliquam tincidunt libero ut augue lobortis, nec dignissim massa gravida. Cras rhoncus dapibus lectus ac pharetra. Mauris a condimentum lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque ac leo vitae enim malesuada pharetra. Morbi id interdum mauris, sit amet mollis metus. In lectus ligula, tincidunt nec pulvinar ac, rutrum luctus augue. Aenean interdum, odio a maximus consequat, tortor erat consequat quam, nec ultricies augue eros sed mauris. Aenean eu magna purus. Nulla dignissim aliquam magna, vel sagittis mi posuere sit amet. Vivamus in vehicula urna. Sed a euismod nunc. Ut vel luctus erat, at posuere odio. Integer eu convallis justo.\n\nDonec tempor ipsum sagittis lectus suscipit molestie. Nunc vitae leo dapibus, tincidunt erat eget, blandit nibh. Nunc eu consequat libero. Nullam vel ultrices odio. Donec dapibus orci purus, eget vulputate neque imperdiet id. Nam at urna at ex laoreet cursus vel tristique justo. Quisque molestie pulvinar ultrices. In vehicula venenatis ipsum eget tempor. Proin mollis pellentesque massa vitae convallis. Nullam non scelerisque sem. Fusce eu mi mauris. Sed id viverra leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam consequat, ex id eleifend placerat, ipsum turpis tempus risus, vitae volutpat orci purus fermentum justo. Maecenas non lorem ante. Vestibulum lacinia tristique mauris, ut gravida leo rutrum vitae.",
+    "work_histories": [
+      {
+        "name": "Motorola Mobility",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/342/motorola-mobility_copy.png"
+      },
+      {
+        "name": "DLA Piper",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/909/dla_piper_copy.png"
+      },
+      {
+        "name": "HSBC",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/726/hsbc_copy.png"
+      }
+    ]
+  },
+  {
+    "initial": "CD",
+    "avatar": "images/avatar2.png",
+    "lawyer_type": "Solicitor",
+    "pqe": "10 years",
+    "location": "Manchester, GB",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisl arcu, facilisis pulvinar porta vel, fermentum non nisl.",
+    "work_histories": [
+      {
+        "name": "THOMSON REUTERS",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/257/tr_copy.png"
+      },
+      {
+        "name": "Mint Digital",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/276/sponsor-mint-digital_copy.png"
+      },
+      {
+        "name": "Experian",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/25/experian_copy.png"
+      }
+    ]
+  },
+  {
+    "initial": "EF",
+    "lawyer_type": "Solicitor",
+    "pqe": "10 years",
+    "location": "London, GB",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisl arcu, facilisis pulvinar porta vel, fermentum non nisl.",
+    "work_histories": [
+      {
+        "name": "THOMSON REUTERS",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/257/tr_copy.png"
+      },
+      {
+        "name": "Mint Digital",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/276/sponsor-mint-digital_copy.png"
+      },
+      {
+        "name": "Experian",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/25/experian_copy.png"
+      }
+    ]
+  },
+  {
+    "initial": "GG",
+    "avatar": "images/avatar2.png",
+    "lawyer_type": "Solicitor",
+    "pqe": "10 years",
+    "location": "London, GB",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisl arcu, facilisis pulvinar porta vel, fermentum non nisl.",
+    "work_histories": [
+      {
+        "name": "THOMSON REUTERS",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/257/tr_copy.png"
+      },
+      {
+        "name": "Mint Digital",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/276/sponsor-mint-digital_copy.png"
+      },
+      {
+        "name": "Experian",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/25/experian_copy.png"
+      }
+    ]
+  },
+  {
+    "initial": "HH",
+    "avatar": "images/avatar2.png",
+    "lawyer_type": "Solicitor",
+    "pqe": "10 years",
+    "location": "London, GB",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisl arcu, facilisis pulvinar porta vel, fermentum non nisl.",
+    "work_histories": [
+      {
+        "name": "THOMSON REUTERS",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/257/tr_copy.png"
+      },
+      {
+        "name": "Mint Digital",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/276/sponsor-mint-digital_copy.png"
+      },
+      {
+        "name": "Experian",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/25/experian_copy.png"
+      }
+    ]
+  },
+  {
+    "initial": "II",
+    "avatar": "images/avatar2.png",
+    "lawyer_type": "Solicitor",
+    "pqe": "10 years",
+    "location": "London, GB",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisl arcu, facilisis pulvinar porta vel, fermentum non nisl.",
+    "work_histories": [
+      {
+        "name": "THOMSON REUTERS",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/257/tr_copy.png"
+      },
+      {
+        "name": "Mint Digital",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/276/sponsor-mint-digital_copy.png"
+      },
+      {
+        "name": "Experian",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/25/experian_copy.png"
+      }
+    ]
+  },
+  {
+    "initial": "JJ",
+    "avatar": "images/avatar1.png",
+    "lawyer_type": "Barrister",
+    "pqe": "3 years",
+    "location": "London, GB",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisl arcu, facilisis pulvinar porta vel, fermentum non nisl. Aliquam tincidunt libero ut augue lobortis, nec dignissim massa gravida. Cras rhoncus dapibus lectus ac pharetra. Mauris a condimentum lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "work_histories": [
+      {
+        "name": "Motorola Mobility",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/342/motorola-mobility_copy.png"
+      },
+      {
+        "name": "DLA Piper",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/909/dla_piper_copy.png"
+      },
+      {
+        "name": "HSBC",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/726/hsbc_copy.png"
+      }
+    ]
+  },
+  {
+    "initial": "KK",
+    "avatar": "images/avatar1.png",
+    "lawyer_type": "Barrister",
+    "pqe": "15 years",
+    "location": "London, GB",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisl arcu, facilisis pulvinar porta vel, fermentum non nisl. Aliquam tincidunt libero ut augue lobortis, nec dignissim massa gravida. Cras rhoncus dapibus lectus ac pharetra. Mauris a condimentum lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "work_histories": [
+      {
+        "name": "Motorola Mobility",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/342/motorola-mobility_copy.png"
+      },
+      {
+        "name": "DLA Piper",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/909/dla_piper_copy.png"
+      },
+      {
+        "name": "HSBC",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/726/hsbc_copy.png"
+      }
+    ]
+  },
+  {
+    "initial": "LL",
+    "avatar": "images/avatar1.png",
+    "lawyer_type": "Barrister",
+    "pqe": "15 years",
+    "location": "London, GB",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisl arcu, facilisis pulvinar porta vel, fermentum non nisl. Aliquam tincidunt libero ut augue lobortis, nec dignissim massa gravida. Cras rhoncus dapibus lectus ac pharetra. Mauris a condimentum lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "work_histories": [
+      {
+        "name": "Motorola Mobility",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/342/motorola-mobility_copy.png"
+      },
+      {
+        "name": "DLA Piper",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/909/dla_piper_copy.png"
+      },
+      {
+        "name": "HSBC",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/726/hsbc_copy.png"
+      }
+    ]
+  },
+  {
+    "initial": "MM",
+    "avatar": "images/avatar1.png",
+    "lawyer_type": "Barrister",
+    "pqe": "15 years",
+    "location": "London, GB",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisl arcu, facilisis pulvinar porta vel, fermentum non nisl. Aliquam tincidunt libero ut augue lobortis, nec dignissim massa gravida. Cras rhoncus dapibus lectus ac pharetra. Mauris a condimentum lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "work_histories": [
+      {
+        "name": "Motorola Mobility",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/342/motorola-mobility_copy.png"
+      },
+      {
+        "name": "DLA Piper",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/909/dla_piper_copy.png"
+      },
+      {
+        "name": "HSBC",
+        "logo": "https://5e884c4911af0c6e20c6-ae47b2d3ca6da056ac83841bc24569a4.ssl.cf3.rackcdn.com/system/uploads/organizations/company/logo/726/hsbc_copy.png"
+      }
+    ]
+  }
+]
