@@ -14,6 +14,7 @@
 	border-right: 1px solid #ededef;
 	border-left: 1px solid #ededef;
 	box-shadow: 0 2px 1px #ccc;
+	font-size: 16px;
 	margin-bottom: 30px;
 	width: 100%;
 
@@ -23,10 +24,12 @@
 		padding: 20px;
 	}
 	&__info {
+		font-size: 13px;
 		img {
 			display: inline-block;
 			max-width: 12px;
 			margin-left: 20px;
+			margin-right: 5px;
 			&:first-child {
 				margin-left: 0;
 			}
@@ -46,6 +49,7 @@
 	}
 	&__experience {
 		padding: 20px;
+		font-size: 14px;
 		ul {
 			display: flex;
 			list-style-type: none;

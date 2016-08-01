@@ -51,18 +51,22 @@ h1, h2 {
   border-right: 1px solid #ededef;
   border-left: 1px solid #ededef;
   box-shadow: 0 2px 1px #ccc;
+  font-size: 16px;
   margin-bottom: 30px;
   width: 100%; }
   .lawyer__header {
     border-bottom: 1px solid #ededef;
     overflow: hidden;
     padding: 20px; }
-  .lawyer__info img {
-    display: inline-block;
-    max-width: 12px;
-    margin-left: 20px; }
-    .lawyer__info img:first-child {
-      margin-left: 0; }
+  .lawyer__info {
+    font-size: 13px; }
+    .lawyer__info img {
+      display: inline-block;
+      max-width: 12px;
+      margin-left: 20px;
+      margin-right: 5px; }
+      .lawyer__info img:first-child {
+        margin-left: 0; }
   .lawyer__links {
     border-bottom: 1px solid #ededef;
     padding: 20px;
@@ -73,7 +77,8 @@ h1, h2 {
     float: left;
     margin-right: 20px; }
   .lawyer__experience {
-    padding: 20px; }
+    padding: 20px;
+    font-size: 14px; }
     .lawyer__experience ul {
       display: flex;
       list-style-type: none;
